@@ -6,7 +6,8 @@
 /* a positive-integer value stack, with no size limit */
 typedef struct Stack
 {
-
+	unsigned int _count;
+	linkedList* _elements;
 } Stack;
 
 void push(Stack* s, unsigned int element);
